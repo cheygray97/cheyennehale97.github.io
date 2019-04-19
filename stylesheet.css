@@ -1,7 +1,5 @@
-﻿body
-{
-    background-color:beige;
-  
+﻿body {
+    background-image: url(https://www.publicdomainpictures.net/pictures/130000/nahled/white-box-background.jpg);
 }
 #container{
     position:center;
@@ -37,7 +35,7 @@ a:hover{
     text-transform:uppercase;
 }
 img{
-    position:relative;
+   vertical-align:auto;
     max-height:500px;
     max-width:500px;
     border:solid;
@@ -54,7 +52,11 @@ div{
     margin-right: auto;
     width: 22%;
     padding:15px;
-   
-    
  
+ 
+}
+#info{
+    text-align:center;
+    font-size:medium;
+    font-style:italic;
 }

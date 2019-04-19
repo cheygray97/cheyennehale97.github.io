@@ -10,7 +10,7 @@
 h1{
     position:relative;
     text-align:center;
-    font-size:50px;
+    font-size:70px;
     margin:5px;
     color:indianred;
     
@@ -53,10 +53,39 @@ div{
     width: 22%;
     padding:15px;
  
- 
 }
 #info{
     text-align:center;
     font-size:medium;
     font-style:italic;
+    margin-left:3%;
 }
+#box1{
+    border-top:double;
+    border-left:double;
+    border-right:double;
+    -moz-border-radius-bottomleft:0;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:center;
+    font-size:20px;
+    float:left;
+   
+}
+#box2 {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+
+}
+#box3 {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    text-align:center;
+}
+

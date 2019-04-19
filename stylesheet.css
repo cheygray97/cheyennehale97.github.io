@@ -47,12 +47,24 @@ div{
 
 }
 .image{
-    position:relative;
+    display:block;
     margin-left:auto;
     margin-right: auto;
-    width: 22%;
+    width: 100%;
     padding:15px;
  
+}
+#picture2{
+    display:inline-block;
+    width:auto;
+}
+#picture3 {
+    display: inline-block;
+    width: auto;
+}
+#picture4 {
+    display: inline-block;
+    width: auto;
 }
 #info{
     text-align:center;
@@ -70,7 +82,11 @@ div{
     text-align:center;
     font-size:20px;
     float:left;
+    padding-top:2px;
    
+}
+#box1:hover{
+  
 }
 #box2 {
     float: left;
@@ -81,11 +97,25 @@ div{
 
 }
 #box3 {
-
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
     font-size: 20px;
-    text-align:center;
 }
-
+#employers{
+    text-align:center;
+     
+    
+}
+ul{
+    font-size:large;
+    list-style-type:none;
+   
+}
+li{margin:10px;
+   font-size:30px;
+}
+span{
+    font-style:italic;
+    font-size:20px;
+}
